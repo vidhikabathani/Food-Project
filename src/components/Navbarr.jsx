@@ -1,27 +1,33 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
-import { Logout } from '../redux/Action'
+import { Container, Nav, Navbar } from 'react-bootstrap'
 
 function Navbarr() {
 
     let data = useSelector((store) => store.UserReducer)
-    let dispatch=useDispatch()
+    let dispatch = useDispatch()
 
     return (
         <div className='header'>
-            <div className="container">
-                <nav className='nav'>
-                    <NavLink to='/' className="navbar active">Home</NavLink>
-                    <NavLink to='/addproduct' className="navbar">Add Product</NavLink>
-                    <NavLink to='/product' className="navbar">Products</NavLink>
-                    <NavLink to='/cart' className="navbar">Cart</NavLink>
-                    <NavLink to='/signup' className="navbar">SignUp</NavLink>
-                    {/* {data.isLogin ? (<span className='navbar'>{data.userdata.username}</span>) : <NavLink to='/signup' className="navbar">SignUp</NavLink>} */}
-                    {data.isLogin ? (<span className='navbar' onClick={()=>dispatch(Logout())}>Logout</span>) : <NavLink to='/login' className="navbar">Login</NavLink>}
-                    <span className='nav-in'></span>
-                </nav>
-            </div>
+            <Navbar bg="dark" data-bs-theme="dark">
+                <Container className='p-2'>
+                    <NavLink to="/" className='text-light text-decoration-none fs-5 fw-bold'> Yummy </NavLink>
+                    <Nav className="m-auto gap-5">
+                        <NavLink className='text-light text-decoration-none' to='/'>HOME</NavLink>
+                        <NavLink className='text-light text-decoration-none' to='/about'>ABOUT</NavLink>
+                        <NavLink className='text-light text-decoration-none' to='/reservation'>RESERVATION</NavLink>
+                        <NavLink className='text-light text-decoration-none' to='/menu'>MENU</NavLink>
+                        <NavLink className='text-light text-decoration-none' to='/blog'>BLOG</NavLink>
+                        <NavLink className='text-light text-decoration-none' to='/contact'>CONTACT</NavLink>
+                        <NavLink className='text-light text-decoration-none' to='/cart'>CART</NavLink>
+                    </Nav>
+                    <Nav className='gap-4'>
+                        <NavLink className='text-light text-decoration-none' to='/signup'>SIGNUP</NavLink>
+                        <NavLink className='text-light text-decoration-none' to='/login'>LOGIN</NavLink>
+                    </Nav>
+                </Container>
+            </Navbar>
         </div>
     )
 }

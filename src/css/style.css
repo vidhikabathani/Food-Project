@@ -1,0 +1,6 @@
+:root{
+    --Greate-vibe: 'Great Vibes';
+}
+.Greate-vibe{
+    font-family: var(--Greate-vibe);
+}

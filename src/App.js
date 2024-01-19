@@ -1,4 +1,5 @@
-import logo from './logo.svg';
+import './css/style.css'
+import './css/stylesheet.css'
 import './App.css';
 import Navbarr from './components/Navbarr';
 import AllRouter from './router/AllRouter';
