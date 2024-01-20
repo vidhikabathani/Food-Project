@@ -5,14 +5,11 @@ import { Container, Nav, Navbar } from 'react-bootstrap'
 
 function Navbarr() {
 
-    let data = useSelector((store) => store.UserReducer)
-    let dispatch = useDispatch()
-
     return (
         <div className='header'>
             <Navbar bg="dark" data-bs-theme="dark">
                 <Container className='p-2'>
-                    <NavLink to="/" className='text-light text-decoration-none fs-5 fw-bold'> Yummy </NavLink>
+                    <NavLink to="/" className='text-light text-decoration-none fs-5 fw-bold f-primary'> Yum </NavLink>
                     <Nav className="m-auto gap-5">
                         <NavLink className='text-light text-decoration-none' to='/'>HOME</NavLink>
                         <NavLink className='text-light text-decoration-none' to='/about'>ABOUT</NavLink>
