@@ -2,6 +2,9 @@
     --Greate-vibe: 'Great Vibes';
     --Primary:#c49b63;
 }
+img{
+    width: 100%;
+}
 body{
     background-color: black;
 }
@@ -10,6 +13,9 @@ body{
 }
 .f-gray{
     color: #808080;
+}
+.bg-p{
+    background-color: var(--Primary);
 }
 .f-white{
     color: white;
@@ -96,4 +102,38 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+
+
+
+
+/* ABOUT SECTION  */
+#about_content{
+    display: flex;
+    align-items: center;
+}
+#about_content .about-img{
+    width: 50%;
+}
+#about_content .about-overlay{
+    margin: -100px;
+    width: 95%;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#about_content .about-overlay h1{
+    margin: 0;
+}
+
+
+
+
+/* MENU SECTION  */
+#menu_content{
+    display: flex;
+    align-items: center;
+}
+.align-end{
+    text-align: end;
 }
