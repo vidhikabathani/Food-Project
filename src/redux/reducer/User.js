@@ -1,9 +1,10 @@
 import React from 'react'
 
 function User() {
-    return (
-        <div>User</div>
-    )
+    switch (type)
+    {
+        
+    }
 }
 
 export default User

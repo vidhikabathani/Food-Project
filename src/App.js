@@ -4,12 +4,14 @@ import './css/stylesheet.css'
 import './App.css';
 import Navbarr from './components/Navbarr';
 import AllRouter from './router/AllRouter';
+import Footer from './router/Footer';
 
 function App() {
   return (
     <>
       <Navbarr/>
       <AllRouter/>
+      <Footer/>
     </>
   );
 }
