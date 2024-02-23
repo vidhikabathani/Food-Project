@@ -3,55 +3,6 @@
   "book-table": [],
   "food": [
     {
-      "id": "5b0b",
-      "title": "Panner butter masala",
-      "url": "https://i.pinimg.com/236x/da/f3/98/daf3988311896ed002a1d75f3702870c.jpg",
-      "price": "59",
-      "category": "panner"
-    },
-    {
-      "id": "cbb4",
-      "title": "matar panner",
-      "url": "https://i.pinimg.com/236x/c1/62/b5/c162b5152f891cbedbe62defa3894d94.jpg",
-      "price": "40",
-      "category": "panner"
-    },
-    {
-      "id": "3070",
-      "title": "panner palak",
-      "url": "https://i.pinimg.com/236x/c1/e5/8d/c1e58dc5b850ed2a576a325de6339719.jpg",
-      "price": "50",
-      "category": "palak"
-    },
-    {
-      "id": "0276",
-      "title": "panner kadai ",
-      "url": "https://i.pinimg.com/236x/69/0f/56/690f5698289dc78d19136fa5bb641e27.jpg",
-      "price": "56",
-      "category": "panner"
-    },
-    {
-      "id": "63e0",
-      "title": "Shahi panner",
-      "url": "https://i.pinimg.com/236x/b7/cb/55/b7cb55a6c4d7e44e6f8d5fb43b4d99c6.jpg",
-      "price": "58",
-      "category": "panner"
-    },
-    {
-      "id": "52a2",
-      "title": "Panner tikka masala",
-      "url": "https://i.pinimg.com/236x/53/6e/9b/536e9b0e0b34796e485620aa1a36c278.jpg",
-      "price": "49",
-      "category": "panner"
-    },
-    {
-      "id": "23c1",
-      "title": "Panner tikka",
-      "url": "https://i.pinimg.com/236x/22/90/59/22905909c24dd0d1cfa8695de86b57cb.jpg",
-      "price": "55",
-      "category": "panner"
-    },
-    {
       "id": "bcdb",
       "title": "Margherita pizza",
       "url": "https://i.pinimg.com/236x/89/2b/7a/892b7a4960aa0f13e4bf3a73d3a792e8.jpg",
@@ -225,6 +176,83 @@
       "url": "https://i.pinimg.com/236x/f0/84/cc/f084ccd588f606ecdf993019897c2523.jpg",
       "price": "155",
       "category": "sandwich"
+    },
+    {
+      "id": "8680",
+      "title": "Veg. burger",
+      "url": "https://i.pinimg.com/236x/9d/02/b7/9d02b7a8da61091110dc65cbc1a325e6.jpg",
+      "price": "58",
+      "category": "burger"
+    },
+    {
+      "id": "c285",
+      "title": "Veg. cheese burger",
+      "url": "https://i.pinimg.com/236x/c9/14/2d/c9142d216e9ffbd4276a12cd4ccd1645.jpg",
+      "price": "65",
+      "category": "burger"
+    },
+    {
+      "id": "c491",
+      "title": "Peri peri burger",
+      "url": "https://i.pinimg.com/236x/dc/db/c7/dcdbc7c27fa83333e1d9190d02179b5e.jpg",
+      "price": "49",
+      "category": "burger"
+    },
+    {
+      "id": "ed05",
+      "title": "Peri peri cheese burger",
+      "url": "https://i.pinimg.com/236x/dc/db/c7/dcdbc7c27fa83333e1d9190d02179b5e.jpg",
+      "price": "69",
+      "category": "burger"
+    },
+    {
+      "id": "c865",
+      "title": "Schezwan Burger",
+      "url": "https://i.pinimg.com/236x/0a/c9/31/0ac931746aa9de0a6ee7641ce00fea2f.jpg",
+      "price": "70",
+      "category": "burger"
+    },
+    {
+      "id": "822c",
+      "title": "Schezwan Cheese Burger",
+      "url": "https://i.pinimg.com/236x/69/64/40/696440b6a489e2d3167f87a82f514da5.jpg",
+      "price": "80",
+      "category": "burger"
+    },
+    {
+      "id": "6d7a",
+      "title": "Corn & Cheese Burger",
+      "url": "https://i.pinimg.com/236x/f4/4e/55/f44e5559d3f02c86b98a8a6122f0447c.jpg",
+      "price": "134",
+      "category": "burger"
+    },
+    {
+      "id": "31c4",
+      "title": "Panner Corn burger",
+      "url": "https://i.pinimg.com/736x/4c/9d/07/4c9d07b9ceef9b8eea58497874729d55.jpg",
+      "price": "105.12",
+      "category": "burger"
+    },
+    {
+      "id": "f2f9",
+      "title": "Aloo Tikki burger",
+      "url": "https://i.pinimg.com/236x/3a/8c/3b/3a8c3b929c602553a42d1684d0d4a1c8.jpg",
+      "price": "69.58",
+      "category": "burger"
+    },
+    {
+      "id": "07bb",
+      "title": "Mexican Aloo Tikki Burger",
+      "url": "https://i.pinimg.com/236x/1b/e2/63/1be26352cfca1dd6a5e032e759769723.jpg",
+      "price": "74.49",
+      "category": "burger"
+    },
+    {
+      "id": "ba2f",
+      "title": "Veg. Maharaja burger",
+      "url": "https://i.pinimg.com/236x/6e/2a/a3/6e2aa3397793036aca0f24e6421146d3.jpg",
+      "price": "222",
+      "category": "burger"
     }
   ]
 }
