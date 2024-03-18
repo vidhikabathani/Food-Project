@@ -12,38 +12,100 @@ function Menu() {
     }, [dispatch]);
 
     return (
-        <div className="container p-100 flex center justify-between">
-            <h1>PIZZA</h1>
-            {product.map((ele) => {
-            if (ele.category == "pizza") {
-                return (
-                    <div className="main-div col-4">
-                        <NavLink to={`/product/${ele.id}`}>
-                            <img src={ele.url} alt="" />
-                            <h3>{ele.title}</h3>
-                            <h5 className="f-blue">Rs. {ele.price}</h5>
-                            <p> dolor, sit amet consectetur adipisicing elit. Optio, iure.</p>
-                        </NavLink>
-                    </div>
-                );
-            }
-            })}
+        <div className="p-100 flex center justify-between">
 
-            <h1>SANDWICH</h1>
-            {product.map((ele) => {
-                if (ele.category == "sandwich") {
-                    return (
-                        <div className="main-div col-4">
-                            <NavLink to={`/product/${ele.id}`}>
-                                <img src={ele.url} alt="" />
-                                <h3>{ele.title}</h3>
-                                <h5 className="f-blue">Rs. {ele.price}</h5>
-                                <p> dolor, sit amet consectetur adipisicing elit. Optio, iure.</p>
-                            </NavLink>
-                        </div>
-                    );
-                }
-            })}
+            <div className="menu-bg">
+                <div className="container">
+                    <h1 className="text-white banner-head">MENU</h1>
+                </div>
+            </div>
+            <div className="container">
+            <div className="row my-5">
+                <h1 className="Greate-vibe fs-1 f-primary">Pizza</h1>
+                {product.map((ele) => {
+                    if (ele.category == "pizza") {
+                        return (
+                            <div className="main-div col-md-6 col-12">
+                                <NavLink to={`/product/${ele.id}`} className="text-decoration-none text-dark">
+                                    <div id="flex" className="p-2">
+                                        <div className="rounded-circle overflow-hidden" id="img-div"> <img src={ele.url} alt="" /></div>
+                                        <div className="px-3">
+                                            <h3>{ele.title}</h3>
+                                            <p> dolor, sit amet consectetur adipisicing elit. Optio, iure.</p>
+                                        </div>
+                                        <h5 className="f-blue">$ {ele.price}</h5>
+                                    </div>
+                                </NavLink>
+                            </div>
+                        );
+                    }
+                })}
+            </div>
+            <div className="row my-5">
+                <h1 className="Greate-vibe fs-1 f-primary">Vegetables</h1>
+                {product.map((ele) => {
+                    if (ele.category == "vegetables") {
+                        return (
+                            <div className="main-div col-md-6 col-12">
+                                <NavLink to={`/product/${ele.id}`} className="text-decoration-none text-dark">
+                                    <div id="flex" className="p-2">
+                                        <div className="rounded-circle overflow-hidden" id="img-div"> <img src={ele.url} alt="" /></div>
+                                        <div className="px-3">
+                                            <h3>{ele.title}</h3>
+                                            <p> dolor, sit amet consectetur adipisicing elit. Optio, iure.</p>
+                                        </div>
+                                        <h5 className="f-blue">$ {ele.price}</h5>
+                                    </div>
+                                </NavLink>
+                            </div>
+                        );
+                    }
+                })}
+            </div>
+            <div className="row my-5">
+                <h1 className="Greate-vibe fs-1 f-primary">Wine</h1>
+                {product.map((ele) => {
+                    if (ele.category == "wine") {
+                        return (
+                            <div className="main-div col-md-6 col-12">
+                                <NavLink to={`/product/${ele.id}`} className="text-decoration-none text-dark">
+                                    <div id="flex" className="p-2">
+                                        <div className="rounded-circle overflow-hidden" id="img-div"> <img src={ele.url} alt="" /></div>
+                                        <div className="px-3">
+                                            <h3>{ele.title}</h3>
+                                            <p> dolor, sit amet consectetur adipisicing elit. Optio, iure.</p>
+                                        </div>
+                                        <h5 className="f-blue">$ {ele.price}</h5>
+                                    </div>
+                                </NavLink>
+                            </div>
+                        );
+                    }
+                })}
+            </div><div className="row my-5">
+                <h1 className="Greate-vibe fs-1 f-primary">Pasta</h1>
+                {product.map((ele) => {
+                    if (ele.category == "pasta") {
+                        return (
+                            <div className="main-div col-md-6 col-12
+                            ">
+                                <NavLink to={`/product/${ele.id}`} className="text-decoration-none text-dark">
+                                    <div id="flex" className="p-2">
+                                        <div className="rounded-circle overflow-hidden" id="img-div"> <img src={ele.url} alt="" /></div>
+                                        <div className="px-3">
+                                            <h3>{ele.title}</h3>
+                                            <p> dolor, sit amet consectetur adipisicing elit. Optio, iure.</p>
+                                        </div>
+                                        <h5 className="f-blue">$ {ele.price}</h5>
+                                    </div>
+                                </NavLink>
+                            </div>
+                        );
+                    }
+                })}
+            </div>  
+            </div>
+            
         </div>
     );
 }

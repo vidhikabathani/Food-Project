@@ -10,10 +10,9 @@ function Home() {
                     <div className="container">
                         <div id="banner_content">
                             <span className='Greate-vibe fs-1 f-primary'>Welcome</span>
-                            <h1 className='fs-1'>THE BEST COFFEE TESTING <br /> EXPERIENCE</h1>
-                            <p className='fs-4'>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                            <button className='btn btn-p'>Order Now</button>
-                            <button className='btn btn-transparent'>View Menu</button>
+                            <h1 className='fs-1'>PATO PLACE</h1>
+                            <p className='fs-5'>A small river named Duden flows by their place and supplies it with the necessary regelialia.  ipsum dolor sit amet, consectetur adipisicing elit. Molestiae assumenda autem sequi labore consequatur quod, river named Duden recusandae place and supplies. </p>
+                            <button className='btn btn-transparent'>LOOK MENU</button>
                         </div>
                     </div>
                 </div>
@@ -24,22 +23,20 @@ function Home() {
                 <div className="container">
                     <div id="contact_content">
                         <div id="contact" className='col-2'>
-                            <h5>000 (123) 456 7890</h5>
+                            <h5 className='f-gray fw-bold'>000 (123) 456 7890</h5>
                             <p className='fs-6 f-gray'>A small river named Duden flows by their place and supplies.</p>
                         </div>
                         <div id="contact" className='col-2'>
-                            <h5>198 West 21th Street</h5>
+                            <h5 className='f-gray fw-bold'>198 West 21th Street</h5>
                             <p className='fs-6 f-gray'>203 Fake St. Mountain View, San Francisco, California, USA</p>
                         </div>
                         <div id="contact" className='col-2'>
-                            <h5>Open Monday-Friday</h5>
+                            <h5 className='f-gray fw-bold'>Open Monday-Friday</h5>
                             <p className='fs-6 f-gray'>8:00am - 9:00pm</p>
-                            <h5>Open Saturday-Sunday</h5>
-                            <p className='fs-6 f-gray'>9:00am - 8:00pm</p>
                         </div>
                         <div id="contact" className='col-2'>
                             <p className='fs-6 f-gray'>The countries Vokalia and Consonantia, there live the blind texts.</p>
-                            <button className='btn btn-p'>Book a Table</button>
+                            <button className='btn btn-black'>Book a Table</button>
                         </div>
                     </div>
                 </div>
@@ -47,17 +44,19 @@ function Home() {
 
             {/* ABOUT SECTION  */}
             <section className='f-white'>
-                <div id="about_content">
-                    <div className="col-5 about-img">
-                        <img src="https://preview.colorlib.com/theme/coffeeblend/images/about.jpg.webp" alt="" />
+                <div className="container">
+                <div id="about_content" className='justify-content-spacebetween'>
+                    <div className="col-6 p-5 about-img">
+                        <img src="https://preview.colorlib.com/theme/pato/images/our-story-01.jpg.webp" alt="" />
                     </div>
-                    <div className="col-5">
-                        <div className="about-overlay">
-                            <h1 className='Greate-vibe f-primary'>Discover</h1>
+                    <div className="col-6">
+                        <div>
+                            <h1 className='Greate-vibe f-primary'>Italian Restaurant</h1>
                             <h2>OUR STORY</h2>
                             <p className='f-gray fs-6'>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their.</p>
                         </div>
                     </div>
+                </div>
                 </div>
             </section>
 

@@ -1,6 +1,6 @@
 :root{
     --Greate-vibe: 'Great Vibes';
-    --Primary:#c49b63;
+    --Primary:#d61c22;
 }
 img{
     width: 100%;
@@ -14,9 +14,6 @@ img{
 .f-gray{
     color: #444242;
 }
-.bg-p{
-    background-color: var(--Primary);
-}
 .f-white{
     color: white;
 }
@@ -26,27 +23,40 @@ img{
 .p-100{
     padding: 100px 0;
 }
-.btn-p,.btn-transparent:hover{
+#flex{
+    display: flex;
+}
+.btn-transparent:hover{
     background-color: var(--Primary);
     padding: 15px 25px;
     transition: all 0.4s;
-    color: black;
-    border-radius: 0;
+    color: white;
     border: 1px solid var(--Primary);
+    border-radius: 5px;
 }
 .btn-transparent{
+    border-radius: 5px;
     background-color: transparent;
     color: white;
     padding: 15px 25px;
-    border-radius: 0;
+    transition: all 0.5s;
     border: 1px solid white;
 }
-.btn-p:hover{
-    background-color: transparent;
-    color:var(--Primary);
+.btn-black{
+    border-radius: 5px;
+    background-color: black;
+    color: white;
     padding: 15px 25px;
-    border-radius: 0;
+    border: 1px solid white;
+    transition: all 0.5s;
+}
+.btn-black:hover{
+    border-radius: 5px;
+    background-color: var(--Primary);
+    color: white;
+    padding: 15px 25px;
     border: 1px solid var(--Primary);
+    transition: all 0.5s;
 }
 
 
@@ -59,12 +69,14 @@ img{
 
 /* BANNER SECTION  */
 .banner-bg{
-    background-image: url('https://preview.colorlib.com/theme/coffeeblend/images/bg_3.jpg.webp');
+    background-image: url('https://preview.colorlib.com/theme/pato/images/master-slides-01.jpg.webp');
     height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .banner-layout{
     padding: 200px 0 0 0;
-    background-color: rgba(0, 0, 0, 0.466);
+    /* background-color: rgba(0, 0, 0, 0.466); */
     height: 100vh;
 }
 #banner_content{
@@ -89,9 +101,16 @@ img{
 
 /* HEADER  */
 .header{
+    background-color: rgba(255, 255, 255, 0.89);
+    color: black;
     position: absolute;
     width: 100%;
     position: fixed;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+.header .f-gray:hover{
+    color: var(--Primary);
 }
 
 
@@ -103,6 +122,7 @@ img{
     justify-content: space-between;
     align-items: center;
 }
+
 
 
 
@@ -136,4 +156,20 @@ img{
 }
 .align-end{
     text-align: end;
+}
+#img-div{
+    width: 100px;
+    height: 100px;
+}
+.menu-bg{
+    background-image: url("https://preview.colorlib.com/theme/pato/images/bg-title-page-01.jpg.webp");
+    height: 75vh;
+    position: relative;
+    background-repeat: no-repeat;
+}
+.banner-head{
+    position: absolute;
+    content: "";
+    right: 50%;
+    bottom: 50%;
 }
