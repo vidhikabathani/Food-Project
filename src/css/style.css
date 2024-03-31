@@ -20,6 +20,9 @@ img{
 .f-primary{
     color: var(--Primary);
 }
+.p-50{
+    padding: 70px 0;
+}
 .p-100{
     padding: 100px 0;
 }

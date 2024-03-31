@@ -11,7 +11,7 @@ function Home() {
                         <div id="banner_content">
                             <span className='Greate-vibe fs-1 f-primary'>Welcome</span>
                             <h1 className='fs-1'>PATO PLACE</h1>
-                            <p className='fs-5'>A small river named Duden flows by their place and supplies it with the necessary regelialia.  ipsum dolor sit amet, consectetur adipisicing elit. Molestiae assumenda autem sequi labore consequatur quod, river named Duden recusandae place and supplies. </p>
+                            <p className='fs-5' id='banner-extra'>A small river named Duden flows by their place and supplies it with the necessary regelialia.  ipsum dolor sit amet, consectetur adipisicing elit. Molestiae assumenda autem sequi labore consequatur quod, river named Duden recusandae place and supplies. </p>
                             <button className='btn btn-transparent'>LOOK MENU</button>
                         </div>
                     </div>
@@ -21,20 +21,20 @@ function Home() {
             {/* CONTACT SECTION  */}
             <section className='py-5 f-white'>
                 <div className="container">
-                    <div id="contact_content">
-                        <div id="contact" className='col-2'>
+                    <div className="row justify-content-between">
+                        <div id="contact" className='col-12 col-md-3 py-2 py-md-0'>
                             <h5 className='f-gray fw-bold'>000 (123) 456 7890</h5>
                             <p className='fs-6 f-gray'>A small river named Duden flows by their place and supplies.</p>
                         </div>
-                        <div id="contact" className='col-2'>
+                        <div id="contact" className='col-12 col-md-3 py-2 py-md-0'>
                             <h5 className='f-gray fw-bold'>198 West 21th Street</h5>
                             <p className='fs-6 f-gray'>203 Fake St. Mountain View, San Francisco, California, USA</p>
                         </div>
-                        <div id="contact" className='col-2'>
+                        <div id="contact" className='col-12 col-md-3 py-2 py-md-0'>
                             <h5 className='f-gray fw-bold'>Open Monday-Friday</h5>
                             <p className='fs-6 f-gray'>8:00am - 9:00pm</p>
                         </div>
-                        <div id="contact" className='col-2'>
+                        <div id="contact" className='col-12 col-md-3 py-2 py-md-0'>
                             <p className='fs-6 f-gray'>The countries Vokalia and Consonantia, there live the blind texts.</p>
                             <button className='btn btn-black'>Book a Table</button>
                         </div>
@@ -45,11 +45,11 @@ function Home() {
             {/* ABOUT SECTION  */}
             <section className='f-white'>
                 <div className="container">
-                <div id="about_content" className='justify-content-spacebetween'>
-                    <div className="col-6 p-5 about-img">
+                <div  className='row align-items-center'>
+                    <div className="col-12 col-md-6 p-5 about-img">
                         <img src="https://preview.colorlib.com/theme/pato/images/our-story-01.jpg.webp" alt="" />
                     </div>
-                    <div className="col-6">
+                    <div className="col-12 col-md-6">
                         <div>
                             <h1 className='Greate-vibe f-primary'>Italian Restaurant</h1>
                             <h2>OUR STORY</h2>

@@ -12,6 +12,7 @@ import Contact from '../pages/Contact'
 import Cart from '../pages/Cart'
 import Blog from '../pages/Blog'
 import AddProduct from '../pages/Addproduct'
+import BookTable from '../pages/BookTable'
 function AllRouter() {
     return (
         <Routes>
@@ -22,6 +23,7 @@ function AllRouter() {
             <Route path='/reservation' element={<Reservation/>}></Route>
             <Route path='/blog' element={<Blog/>}></Route>
             <Route path='/cart' element={<Cart/>}/>
+            <Route path='/booktable' element={<BookTable/>}></Route>
             <Route path='/contact' element={<Contact/>}></Route>
             <Route path='/signup' element={<SignUpp/>}></Route>
             <Route path='/login' element={<Login/>}></Route>

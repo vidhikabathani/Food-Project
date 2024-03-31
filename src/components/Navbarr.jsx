@@ -15,7 +15,7 @@ function Navbarr() {
                         <NavLink className='f-gray text-decoration-none' to='/about'>ABOUT</NavLink>
                         <NavLink className='f-gray text-decoration-none' to='/reservation'>RESERVATION</NavLink>
                         <NavLink className='f-gray text-decoration-none' to='/menu'>MENU</NavLink>
-                        <NavLink className='f-gray text-decoration-none' to='/addproducts'>ADD PRODUCTS</NavLink>
+                        {/* <NavLink className='f-gray text-decoration-none' to='/addproducts'>ADD PRODUCTS</NavLink> */}
                         <NavLink className='f-gray text-decoration-none' to='/blog'>BLOG</NavLink>
                         <NavLink className='f-gray text-decoration-none' to='/contact'>CONTACT</NavLink>
                         <NavLink className='f-gray text-decoration-none' to='/cart'>CART</NavLink>

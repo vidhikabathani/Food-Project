@@ -1,7 +1,14 @@
 import axios from "axios"
-import { ADD_PRODUCT, GET_PRODUCT } from "./ActionType"
+import { ADD_PRODUCT, BOOK_TABLE, GET_PRODUCT, SIGNUP } from "./ActionType"
 
-export const signup=()=>{}
+export const signup=(data)=>async(dispatch)=>{
+    let user = await axios.post("http://localhost:3100/users", data)
+
+    dispatch({
+        type:SIGNUP,
+        payload:user.data
+    })
+}
 export const login=()=>{}
 export const logout=()=>{}
 
@@ -26,4 +33,11 @@ export const add_cart=()=>{}
 export const get_cart=()=>{}
 export const remove_cart=()=>{}
 
-export const book_table=()=>{}
+export const book_table=(data)=>async(dispatch)=>{
+    let table = await axios.post("http://localhost:3100/book-table", data)
+
+    dispatch({
+        type:BOOK_TABLE,
+        payload:table.data
+    })
+}
