@@ -9,7 +9,7 @@ function Navbarr() {
         <div className='header'>
             <Navbar>
                 <Container className='p-2'>
-                    <NavLink to="/" className='text-decoration-none fs-5 fw-bold f-primary'> Yum </NavLink>
+                    <NavLink to="/" className='text-decoration-none fs-5 fw-bold f-primary'> <img src="https://preview.colorlib.com/theme/pato/images/icons/logo2.png.webp" alt="" /> </NavLink>
                     <Nav className="m-auto gap-5">
                         <NavLink className='f-gray text-decoration-none' to='/'>HOME</NavLink>
                         <NavLink className='f-gray text-decoration-none' to='/about'>ABOUT</NavLink>

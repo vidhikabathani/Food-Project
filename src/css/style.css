@@ -1,5 +1,6 @@
 :root{
     --Greate-vibe: 'Great Vibes';
+    --Poppins:'Poppins';
     --Primary:#d61c22;
 }
 img{
@@ -10,6 +11,9 @@ img{
 } */
 .Greate-vibe{
     font-family: var(--Greate-vibe);
+}
+.poppins{
+    font-family: var(--Poppins);
 }
 .f-gray{
     color: #444242;

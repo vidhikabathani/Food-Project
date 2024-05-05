@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Home() {
     return (
@@ -10,7 +11,7 @@ function Home() {
                     <div className="container">
                         <div id="banner_content">
                             <span className='Greate-vibe fs-1 f-primary'>Welcome</span>
-                            <h1 className='fs-1'>PATO PLACE</h1>
+                            <h1 className='fs-1 poppins'>PATO PLACE</h1>
                             <p className='fs-5' id='banner-extra'>A small river named Duden flows by their place and supplies it with the necessary regelialia.  ipsum dolor sit amet, consectetur adipisicing elit. Molestiae assumenda autem sequi labore consequatur quod, river named Duden recusandae place and supplies. </p>
                             <button className='btn btn-transparent'>LOOK MENU</button>
                         </div>
@@ -36,7 +37,7 @@ function Home() {
                         </div>
                         <div id="contact" className='col-12 col-md-3 py-2 py-md-0'>
                             <p className='fs-6 f-gray'>The countries Vokalia and Consonantia, there live the blind texts.</p>
-                            <button className='btn btn-black'>Book a Table</button>
+                            <Link to='/booktable'><button className='btn btn-black'>Book a Table</button></Link>
                         </div>
                     </div>
                 </div>
@@ -68,7 +69,7 @@ function Home() {
             </section>
 
             {/* MENU SECTION  */}
-            <section className='p-100'>
+            <section>
                 <div className="container">
                     <div id="menu_content">
                         <div className="col-6 align-end">
