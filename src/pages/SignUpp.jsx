@@ -1,10 +1,9 @@
 import axios from 'axios'
 import React, { useState } from 'react'
-import { signup }  from '../redux/Action'
 import { useDispatch } from 'react-redux'
-import { GoogleAuth } from '../Config'
+import { signup } from '../redux/Action'
 
-function SignUpp() {
+function Signupp() {
 
     let [username, setUsername] = useState("")
     let [email, setEmail] = useState("")
@@ -17,36 +16,26 @@ function SignUpp() {
             username, email, password
         }
         dispatch(signup(user))
+        console.log(user);
         setPassword("")
         setEmail("")
         setUsername("")
     }
 
-    const handleGoogleauth=()=>{
-        GoogleAuth().then((data)=>{
-            console.log(data);
-        })
-    }
-
     return (
-        <div className='p-100'>
-            <div className="container text-center">
+        <div className='p-100 sign_up'>
+            <div className="container pt-100">
                 <fieldset>
-                    <div>
-                        <div>
-                            <h2>Hello!</h2>
+                    <div className='pt-5 pb-1'>
+                        <div className='pt-5 pb-5'>
+                            <h2 className='Greate-vibe f-primary'>Welcome</h2>
                             <h3>Create new Account</h3>
-                            <form action="">
-                                <input type="text" placeholder='Enter Uername' className='p-2 m-2 border-rounded' value={username} onChange={(e) => { setUsername(e.target.value) }} /><br />
-                                <input type="email" placeholder='Enter Email' className='p-2 m-2 border-rounded' value={email} onChange={(e) => { setEmail(e.target.value) }} /><br />
-                                <input type="password" placeholder='Enter password' className='p-2 m-2 border-rounded' value={password} onChange={(e) => { setPassword(e.target.value) }} /><br />
-                                <button id='btn' onClick={handleSubmit}> SignUp</button><br />
+                            <form action="" className='pt-5'>
+                                <input type="text" className='w-25' placeholder='Enter Uername' value={username} onChange={(e) => { setUsername(e.target.value) }} /><br />
+                                <input type="email" className='w-25' placeholder='Enter Email' value={email} onChange={(e) => { setEmail(e.target.value) }} /><br />
+                                <input type="password" className='w-25' placeholder='Enter password' value={password} onChange={(e) => { setPassword(e.target.value) }} /><br />
+                                <button className='btn btn-black' onClick={handleSubmit}> SignUp</button><br />
                             </form>
-                        </div>
-                        <div>
-                                <span>Already have an Account?</span><br />
-                                <button>Login</button><br />
-                                <button onClick={handleGoogleauth}>SignUp with Google</button>
                         </div>
                     </div>
                 </fieldset>
@@ -55,4 +44,4 @@ function SignUpp() {
     )
 }
 
-export default SignUpp
+export default Signupp

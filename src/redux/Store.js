@@ -4,7 +4,7 @@ import User from "./reducer/User";
 import { Products } from "./reducer/Products";
 
 const Combine = combineReducers({
-    // UserReducer: User,
+    UserReducer: User,
     ProductReducer:Products
 })
 

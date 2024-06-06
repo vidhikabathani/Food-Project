@@ -1,7 +1,7 @@
 {
-  "users": [],
-  "book-table": [
+  "users": [
   ],
+  "book-table": [],
   "food": [
     {
       "id": "b75e",
