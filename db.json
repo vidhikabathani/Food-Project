@@ -1,7 +1,24 @@
 {
   "users": [
+    {
+      "id": "1f4d",
+      "username": "vidhika",
+      "email": "vidhika@gmail.com",
+      "password": "12345678"
+    }
   ],
-  "book-table": [],
+  "book-table": [
+    {
+      "id": "5e4f",
+      "fname": "vidhika",
+      "lname": "bathani",
+      "email": "vidhika@gmail.com",
+      "phone": "9909358655",
+      "person": "2",
+      "date": "2024-06-08",
+      "time": "21:08"
+    }
+  ],
   "food": [
     {
       "id": "b75e",

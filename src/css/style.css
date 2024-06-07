@@ -6,6 +6,10 @@
 img{
     width: 100%;
 }
+.bg-gray{
+    background-color: rgba(128, 128, 128, 0.187);
+    text-align: center;
+}
 /* body{
     background-color: black;
 } */
@@ -193,5 +197,12 @@ img{
 }
 .sign_up{
     background-color: rgba(128, 128, 128, 0.187);
+    text-align: center;
+}
+
+
+
+/* BOOK TABLE PAGE  */
+.book_table{
     text-align: center;
 }

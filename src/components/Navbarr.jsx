@@ -1,9 +1,15 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import { useDispatch, useSelector } from 'react-redux'
+import { useSelector } from 'react-redux'
 import { Container, Nav, Navbar } from 'react-bootstrap'
 
 function Navbarr() {
+
+    let data = useSelector((store) => store.UserReducer)
+
+    const handlelogout=()=>{
+        // data.isLogin(false);
+    }
 
     return (
         <div className='header'>
@@ -21,8 +27,10 @@ function Navbarr() {
                         <NavLink className='f-gray text-decoration-none' to='/cart'>CART</NavLink>
                     </Nav>
                     <Nav className='gap-4'>
-                        <NavLink className='f-gray text-decoration-none' to='/signup'>SIGNUP</NavLink>
-                        <NavLink className='f-gray text-decoration-none' to='/login'>LOGIN</NavLink>
+                        {data.isLogin ? (<span className='navbar'>{data.userdata.username}</span>) :
+                        (<NavLink className='f-gray text-decoration-none' to='/signup'>SIGNUP</NavLink>)}
+                        {data.isLogin ? (<span className='navbar' onClick={handlelogout}>LOGOUT</span>) :
+                        ( <NavLink className='f-gray text-decoration-none' to='/login'>LOGIN</NavLink>)}
                     </Nav>
                 </Container>
             </Navbar>

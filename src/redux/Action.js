@@ -9,7 +9,14 @@ export const signup=(data)=>async(dispatch)=>{
         payload:user.data
     })
 }
-export const login=()=>{}
+export const login=(data)=>async(dispatch)=>{
+    let user = await axios.get("http://localhost:3100/users",data)
+
+    dispatch({
+        type:SIGNUP,
+        payload:user.data
+    })
+}
 export const logout=()=>{}
 
 export const add_product=(data)=>async(dispatch)=>{

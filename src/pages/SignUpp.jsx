@@ -1,4 +1,3 @@
-import axios from 'axios'
 import React, { useState } from 'react'
 import { useDispatch } from 'react-redux'
 import { signup } from '../redux/Action'
@@ -15,11 +14,29 @@ function Signupp() {
         let user = {
             username, email, password
         }
-        dispatch(signup(user))
-        console.log(user);
-        setPassword("")
-        setEmail("")
-        setUsername("")
+        if(!user.username.trim()){
+            alert("Username is required!")
+        }
+        else if(!user.email.trim()){
+            alert("Email is required!")
+        }
+        else if(email === "" || !email.includes("@")){
+            alert("Please enter a valid email address")
+        }
+        else if(!user.password.trim()){
+            alert("Password is required!")
+        }
+        else if(user.password.length<7){
+            alert("Password must be 8 characters!")
+        }
+        else{
+            dispatch(signup(user))
+            console.log(user);
+            alert("Account created");
+            setPassword("")
+            setEmail("")
+            setUsername("")
+        }
     }
 
     return (
@@ -31,9 +48,9 @@ function Signupp() {
                             <h2 className='Greate-vibe f-primary'>Welcome</h2>
                             <h3>Create new Account</h3>
                             <form action="" className='pt-5'>
-                                <input type="text" className='w-25' placeholder='Enter Uername' value={username} onChange={(e) => { setUsername(e.target.value) }} /><br />
-                                <input type="email" className='w-25' placeholder='Enter Email' value={email} onChange={(e) => { setEmail(e.target.value) }} /><br />
-                                <input type="password" className='w-25' placeholder='Enter password' value={password} onChange={(e) => { setPassword(e.target.value) }} /><br />
+                                <input type="text" className='col-md-4 col-12' placeholder='Enter Uername' value={username} onChange={(e) => { setUsername(e.target.value) }} /><br />
+                                <input type="email" className='col-md-4 col-12' placeholder='Enter Email' value={email} onChange={(e) => { setEmail(e.target.value) }} /><br />
+                                <input type="password" className='col-md-4 col-12' placeholder='Enter password' value={password} onChange={(e) => { setPassword(e.target.value) }} /><br />
                                 <button className='btn btn-black' onClick={handleSubmit}> SignUp</button><br />
                             </form>
                         </div>
