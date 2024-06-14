@@ -10,9 +10,6 @@ img{
     background-color: rgba(128, 128, 128, 0.187);
     text-align: center;
 }
-/* body{
-    background-color: black;
-} */
 .Greate-vibe{
     font-family: var(--Greate-vibe);
 }
@@ -198,6 +195,10 @@ img{
 .sign_up{
     background-color: rgba(128, 128, 128, 0.187);
     text-align: center;
+}
+.form-control:focus {
+    border-color: var(--Primary);
+    box-shadow: 0 0 0 2px  var(--Primary);
 }
 
 

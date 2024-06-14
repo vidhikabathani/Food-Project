@@ -48,7 +48,7 @@ function Home() {
                 <div className="container">
                 <div  className='row align-items-center'>
                     <div className="col-12 col-md-6 p-5 about-img">
-                        <img src="https://preview.colorlib.com/theme/pato/images/our-story-01.jpg.webp" alt="" />
+                        <img src="https://preview.colorlib.com/theme/pato/images/our-story-01.jpg.webp" className='w-75' alt="" />
                     </div>
                     <div className="col-12 col-md-6">
                         <div>

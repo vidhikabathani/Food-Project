@@ -63,7 +63,7 @@ function BookTable() {
             <div className='p-100 book_table row justify-content-center'>
             <div className="text-center w-75 py-5">
                 <h1 className='mb-5 py-4'>Book Table in <span className='f-primary'>PATO</span></h1>
-                <input className='p-2 mb-2 col-4 me-1' type="text" placeholder='Enter First Name' onChange={(e)=>{setFname(e.target.value)}} value={fname}/>
+                <input className='p-2 mb-2 w-25 me-1' type="text" placeholder='Enter First Name' onChange={(e)=>{setFname(e.target.value)}} value={fname}/>
                 <input className='p-2 mb-2 w-25' type="text" placeholder='Enter Last Name' onChange={(e)=>{setLname(e.target.value)}} value={lname}/> <br />
                 <input className='p-2 mb-2 w-50' type="email" placeholder='Enter Email' onChange={(e)=>{setEmail(e.target.value)}} value={email}/> <br />
                 <input className='p-2 mb-2 w-25 me-1' type="number" placeholder='Enter PhoneNumber' onChange={(e)=>{setPhone(e.target.value)}} value={phone}/>
