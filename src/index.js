@@ -8,6 +8,7 @@ import reportWebVitals from './reportWebVitals';
 import { Store } from './redux/Store';
 import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
+
 // import "font/bootstrap-icons.min.css"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

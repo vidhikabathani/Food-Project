@@ -11,7 +11,7 @@ function Home() {
                     <div className="container">
                         <div id="banner_content">
                             <span className='Greate-vibe fs-1 f-primary'>Welcome</span>
-                            <h1 className='fs-1 poppins'>PATO PLACE</h1>
+                            <h1 className='fs-1 poppins fw-semibold'>PATO PLACE</h1>
                             <p className='fs-5' id='banner-extra'>A small river named Duden flows by their place and supplies it with the necessary regelialia.  ipsum dolor sit amet, consectetur adipisicing elit. Molestiae assumenda autem sequi labore consequatur quod, river named Duden recusandae place and supplies. </p>
                             <button className='btn btn-transparent'>LOOK MENU</button>
                         </div>
@@ -57,6 +57,14 @@ function Home() {
                         </div>
                     </div>
                 </div>
+                </div>
+            </section>
+
+            {/* BACKGROUND SECTION  */}
+            <section className='dis-bg p-100'>
+                <div className="container text-center">
+                    <h2 className='Greate-vibe f-primary fs-1'>Discover</h2>
+                    <span className='fs-1 f-white poppins fw-semibold'>PATO PLACE</span>
                 </div>
             </section>
         </div>

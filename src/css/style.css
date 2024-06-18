@@ -6,6 +6,11 @@
 img{
     width: 100%;
 }
+.dis-bg{
+    background-image: url("https://preview.colorlib.com/theme/pato/images/bg-intro-01.jpg.webp");
+    background-size: cover;
+    background-attachment: fixed;
+}
 .bg-gray{
     background-color: rgba(128, 128, 128, 0.087);
 }
@@ -17,6 +22,9 @@ img{
 }
 .f-gray{
     color: #444242;
+}
+.f-gray-light{
+    color: #868585;
 }
 .f-white{
     color: white;
