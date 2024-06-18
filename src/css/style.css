@@ -7,8 +7,7 @@ img{
     width: 100%;
 }
 .bg-gray{
-    background-color: rgba(128, 128, 128, 0.187);
-    text-align: center;
+    background-color: rgba(128, 128, 128, 0.087);
 }
 .Greate-vibe{
     font-family: var(--Greate-vibe);
