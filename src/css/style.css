@@ -73,8 +73,15 @@ img{
     border: 1px solid var(--Primary);
     transition: all 0.5s;
 }
-
-
+.pointer{
+    cursor: pointer;
+}
+.f-6{
+    font-size: 13px;
+}
+.p-r-0{
+    padding-right: 0;
+}
 
 
 
@@ -83,19 +90,9 @@ img{
 
 
 /* BANNER SECTION  */
-.banner-bg{
-    background-image: url('https://preview.colorlib.com/theme/pato/images/master-slides-01.jpg.webp');
-    height: 100vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.banner-layout{
-    padding: 200px 0 0 0;
-    /* background-color: rgba(0, 0, 0, 0.466); */
-    height: 100vh;
-}
 #banner_content{
     margin: auto;
+    padding-bottom: 120px;
     text-align: center;
     color: white;
     width: 70%;
@@ -109,6 +106,12 @@ img{
 #banner_content button{
     margin-right: 15px;
 }
+.carousel-indicators [data-bs-target]{
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    border:0;
+}
 
 
 
@@ -120,6 +123,7 @@ img{
     color: black;
     position: absolute;
     width: 100%;
+    z-index: 999;
     position: fixed;
     font-weight: 500;
     transition: all 0.3s;
