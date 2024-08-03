@@ -15,41 +15,28 @@ function Home() {
 
             {/* BANNER SECTION  */}
             <Carousel activeIndex={index} onSelect={handleSelect}>
-                <Carousel.Item>
-                    <Image src="https://preview.colorlib.com/theme/pato/images/master-slides-02.jpg.webp"/>
+                <Carousel.Item id='banner'>
+                    <Image src="https://preview.colorlib.com/theme/vegefoods/images/bg_2.jpg.webp"/>
+                    <div className='overlay'></div>
                     <Carousel.Caption>
                     <div className="container">
                         <div id="banner_content">
-                            <span className='Greate-vibe fs-1 f-primary'>Welcome</span>
-                            <h1 className='fs-1 poppins fw-semibold'>PATO PLACE</h1>
-                            <p className='fs-5' id='banner-extra'>A small river named Duden flows by their place and supplies it with the necessary regelialia.  ipsum dolor sit amet, consectetur adipisicing elit. Molestiae assumenda autem sequi labore consequatur quod, river named Duden recusandae place and supplies. </p>
-                            <button className='btn btn-transparent'>LOOK MENU</button>
+                            <h1 className='fs-1 poppins fw-semibold'>We serve Fresh Vegestables & Fruits</h1>
+                            <p className='f-12' id='banner-extra'>WE DELIVER ORGANIC VEGETABLES & FRUITS </p>
+                            <button className='btn rounded-pill btn-transparent'>VIEW DETAILS</button>
                         </div>
                     </div>
                     </Carousel.Caption>
                 </Carousel.Item>
-                <Carousel.Item>
-                    <Image src="https://preview.colorlib.com/theme/pato/images/master-slides-01.jpg.webp" rounded />
+                <Carousel.Item id='banner'>
+                    <Image src="https://preview.colorlib.com/theme/vegefoods/images/bg_1.jpg" rounded />
+                    <div className='overlay'></div>
                     <Carousel.Caption>
                     <div className="container">
                         <div id="banner_content">
-                            <span className='Greate-vibe fs-1 f-primary'>Welcome</span>
-                            <h1 className='fs-1 poppins fw-semibold'>PATO PLACE</h1>
-                            <p className='fs-5' id='banner-extra'>A small river named Duden flows by their place and supplies it with the necessary regelialia.  ipsum dolor sit amet, consectetur adipisicing elit. Molestiae assumenda autem sequi labore consequatur quod, river named Duden recusandae place and supplies. </p>
-                            <button className='btn btn-transparent'>LOOK MENU</button>
-                        </div>
-                    </div>
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                <Image src="https://preview.colorlib.com/theme/pato/images/master-slides-01.jpg.webp" rounded />
-                    <Carousel.Caption>
-                    <div className="container">
-                        <div id="banner_content">
-                            <span className='Greate-vibe fs-1 f-primary'>Welcome</span>
-                            <h1 className='fs-1 poppins fw-semibold'>PATO PLACE</h1>
-                            <p className='fs-5' id='banner-extra'>A small river named Duden flows by their place and supplies it with the necessary regelialia.  ipsum dolor sit amet, consectetur adipisicing elit. Molestiae assumenda autem sequi labore consequatur quod, river named Duden recusandae place and supplies. </p>
-                            <button className='btn btn-transparent'>LOOK MENU</button>
+                            <h1 className='fs-1 poppins fw-semibold'>100% Fresh & Organic Foods</h1>
+                            <p className='f-12' id='banner-extra'>WE DELIVER ORGANIC VEGETABLES & FRUITS </p>
+                            <button className='btn rounded-pill btn-transparent'>VIEW DETAILS</button>
                         </div>
                     </div>
                     </Carousel.Caption>
@@ -102,6 +89,39 @@ function Home() {
                 <div className="container text-center">
                     <h2 className='Greate-vibe f-primary fs-1'>Discover</h2>
                     <span className='fs-1 f-white poppins fw-semibold'>PATO PLACE</span>
+                </div>
+            </section>
+
+            {/* SERVICES SECTION  */}
+            <section className='p-100'>
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-4 col-12 overflow-hidden">
+                            <img src="https://preview.colorlib.com/theme/pato/images/intro-01.jpg.webp" className='rounded hover-img' alt="" />
+                            <div className='pt-4'>
+                                <span className='fs-5 letter-s hover-text'>ROMANTIC RESTAURANT</span>
+                                <p className='f-gray-light'>Phasellus enime velit eros lorem enim, luctus ut velit eget, con-vallis egestas eros.</p>
+                                <span className='f-6 f-gray-light hover-text'>LEARN MORE</span>
+                            </div>
+                        </div>
+                        <div className="col-md-4 col-12">
+                            <img src="https://preview.colorlib.com/theme/pato/images/intro-02.jpg.webp" className='rounded hover-img' alt="" />
+                            <div className='pt-4'>
+                                <span className='fs-5 letter-s hover-text'>DELICIOUS FOOD</span>
+                                <p className='f-gray-light'>Phasellus enime velit eros lorem enim, luctus ut velit eget, con-vallis egestas eros.</p>
+                                <span className='f-6 f-gray-lig
+                                ht hover-text'>LEARN MORE</span>
+                            </div>
+                        </div>
+                        <div className="col-md-4 col-12">
+                            <img src="https://preview.colorlib.com/theme/pato/images/intro-04.jpg.webp" className='rounded hover-img' alt="" />
+                            <div className='pt-4'>
+                                <span className='fs-5 letter-s hover-text'>RED WINES YOU LOVE</span>
+                                <p className='f-gray-light'>Phasellus enime velit eros lorem enim, luctus ut velit eget, con-vallis egestas eros.</p>
+                                <span className='f-6 f-gray-light hover-text'>LEARN MORE</span>
+                            </div>
+                        </div>  
+                    </div>
                 </div>
             </section>
 
