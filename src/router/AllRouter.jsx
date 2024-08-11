@@ -19,6 +19,7 @@ function AllRouter() {
             <Route path='/' element={<Home/>}></Route>
             <Route path='/menu' element={<Menu/>}></Route>
             <Route path='/addproducts' element={<AddProduct/>}></Route>
+            <Route path='/menu' element={<Menu/>}></Route>
             <Route path='/about' element={<About/>}></Route>
             <Route path='/reservation' element={<Reservation/>}></Route>
             <Route path='/blog' element={<Blog/>}></Route>

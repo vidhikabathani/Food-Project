@@ -20,31 +20,11 @@ function Menu() {
                 </div>
             </div>
             <div className="container">
-            <div className="row my-5">
-                <h1 className="Greate-vibe fs-1 f-primary">Pizza</h1>
-                {product.map((ele) => {
-                    if (ele.category == "pizza") {
-                        return (
-                            <div className="main-div col-md-6 col-12">
-                                <NavLink to={`/product/${ele.id}`} className="text-decoration-none text-dark">
-                                    <div id="flex" className="p-2">
-                                        <div className="rounded-circle overflow-hidden my-2" id="img-div"> <img src={ele.url} alt="" /></div>
-                                        <div className="px-3">
-                                            <h3>{ele.title}</h3>
-                                            <p> dolor, sit amet consectetur adipisicing elit. Optio, iure.</p>
-                                        </div>
-                                        <h5 className="f-blue">$ {ele.price}</h5>
-                                    </div>
-                                </NavLink>
-                            </div>
-                        );
-                    }
-                })}
-            </div>
+            
             <div className="row my-5">
                 <h1 className="Greate-vibe fs-1 f-primary">Vegetables</h1>
                 {product.map((ele) => {
-                    if (ele.category == "vegetables") {
+                    if (ele.category == "Vegetable") {
                         return (
                             <div className="main-div col-md-6 col-12">
                                 <NavLink to={`/product/${ele.id}`} className="text-decoration-none text-dark">
@@ -63,9 +43,9 @@ function Menu() {
                 })}
             </div>
             <div className="row my-5">
-                <h1 className="Greate-vibe fs-1 f-primary">Wine</h1>
+                <h1 className="Greate-vibe fs-1 f-primary">Fruit</h1>
                 {product.map((ele) => {
-                    if (ele.category == "wine") {
+                    if (ele.category == "Fruit") {
                         return (
                             <div className="main-div col-md-6 col-12">
                                 <NavLink to={`/product/${ele.id}`} className="text-decoration-none text-dark">
@@ -82,28 +62,8 @@ function Menu() {
                         );
                     }
                 })}
-            </div><div className="row my-5">
-                <h1 className="Greate-vibe fs-1 f-primary">Pasta</h1>
-                {product.map((ele) => {
-                    if (ele.category == "pasta") {
-                        return (
-                            <div className="main-div col-md-6 col-12
-                            ">
-                                <NavLink to={`/product/${ele.id}`} className="text-decoration-none text-dark">
-                                    <div id="flex" className="p-2">
-                                        <div className="rounded-circle overflow-hidden" id="img-div"> <img src={ele.url} alt="" /></div>
-                                        <div className="px-3">
-                                            <h3>{ele.title}</h3>
-                                            <p> dolor, sit amet consectetur adipisicing elit. Optio, iure.</p>
-                                        </div>
-                                        <h5 className="f-blue">$ {ele.price}</h5>
-                                    </div>
-                                </NavLink>
-                            </div>
-                        );
-                    }
-                })}
-            </div>  
+            </div>
+            
             </div>
             
         </div>

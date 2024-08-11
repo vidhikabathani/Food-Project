@@ -22,11 +22,12 @@ function Navbarr() {
                             <NavLink className='f-gray text-decoration-none' to='/'>HOME</NavLink>
                             <NavLink className='f-gray text-decoration-none' to='/about'>ABOUT</NavLink>
                             <NavLink className='f-gray text-decoration-none' to='/reservation'>SHOP</NavLink>
-                            {/* <NavLink className='f-gray text-decoration-none' to='/addproducts'>ADD PRODUCTS</NavLink> */}
+                            <NavLink className='f-gray text-decoration-none' to='/addproducts'>ADD PRODUCTS</NavLink>
+                            <NavLink className='f-gray text-decoration-none' to='/menu'>MENU</NavLink>
                             <NavLink className='f-gray text-decoration-none' to='/blog'>BLOG</NavLink>
                             <NavLink className='f-gray text-decoration-none' to='/contact'>CONTACT</NavLink>
                             <NavLink className='f-gray text-decoration-none' to='/cart'>CART</NavLink>
-                            <img src="https://img.icons8.com/?size=100&id=Epw9VnbWsXCB&format=png&color=000000" alt="" />
+                            {/* <img src="https://img.icons8.com/?size=100&id=Epw9VnbWsXCB&format=png&color=000000" alt="" /> */}
                             {/* <NavDropdown title="USER" id="basic-nav-dropdown">
                                 <NavDropdown.Item>{data.isLogin ? (<span className='navbar'>{data.userdata.username}</span>) :
                                 (<NavLink className='f-gray text-decoration-none' to='/signup'>SIGNUP</NavLink>)}</NavDropdown.Item>

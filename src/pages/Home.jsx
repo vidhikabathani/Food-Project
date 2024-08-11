@@ -44,17 +44,17 @@ function Home() {
             </Carousel>
 
             {/* CONTACT SECTION  */}
-            <section className='py-5 f-white'>
+            {/* <section className='py-5 f-white'>
                 <div className="container">
-                    <div className="row justify-content-between">
-                        <div id="contact" className='col-12 col-md-3 py-2 py-md-0'>
-                            <h5 className='f-gray fw-bold'>000 (123) 456 7890</h5>
-                            <p className='fs-6 f-gray'>A small river named Duden flows by their place and supplies.</p>
-                        </div>
-                        <div id="contact" className='col-12 col-md-3 py-2 py-md-0'>
-                            <h5 className='f-gray fw-bold'>198 West 21th Street</h5>
-                            <p className='fs-6 f-gray'>203 Fake St. Mountain View, San Francisco, California, USA</p>
-                        </div>
+                <div className="row justify-content-between">
+                <div id="contact" className='col-12 col-md-3 py-2 py-md-0'>
+                <h5 className='f-gray fw-bold'>000 (123) 456 7890</h5>
+                <p className='fs-6 f-gray'>A small river named Duden flows by their place and supplies.</p>
+                </div>
+                <div id="contact" className='col-12 col-md-3 py-2 py-md-0'>
+                <h5 className='f-gray fw-bold'>198 West 21th Street</h5>
+                <p className='fs-6 f-gray'>203 Fake St. Mountain View, San Francisco, California, USA</p>
+                </div>
                         <div id="contact" className='col-12 col-md-3 py-2 py-md-0'>
                             <h5 className='f-gray fw-bold'>Open Every Day</h5>
                             <p className='fs-6 f-gray'>09:30 AM – 11:00 PM</p>
@@ -65,19 +65,22 @@ function Home() {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
             {/* ABOUT SECTION  */}
-            <section className='f-white'>
+            <section>
                 <div className="container">
                     <div className='row align-items-center'>
                         <div className="col-12 col-md-6 p-5 about-img">
-                            <img src="https://preview.colorlib.com/theme/pato/images/our-story-01.jpg.webp" className='w-75 rounded' alt="" />
+                            <img src="https://media.istockphoto.com/id/171251736/photo/pondering-which-brand-to-buy.jpg?s=612x612&w=0&k=20&c=l-y-NQv-oprVzjBt2XV3vE87hf8Z4LarE26iqtix8HU=" className='w-75 rounded' alt="" />
                         </div>
                         <div className="col-12 col-md-6">
                             <div>
-                                <h1 className='Greate-vibe f-primary'>Italian Restaurant</h1>
-                                <p className='f-gray fs-6'>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their.</p>
+                                <h2 className='fs-1 Greate-vibe'>Welcome to Ogani an eCommerce website</h2>
+                                <h4>Our Journey</h4>
+                                <p className='f-gray fs-6'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                                <p>But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their.</p>
+                                <button className='btn rounded-pill btn-p'>VIEW DETAILS</button>
                             </div>
                         </div>
                     </div>

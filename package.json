@@ -24,6 +24,7 @@
     "redux": "^5.0.1",
     "redux-thunk": "^3.1.0",
     "router-dom": "^2.2.11",
+    "sass": "^1.77.8",
     "thunk": "^0.0.1",
     "web-vitals": "^2.1.4"
   },
