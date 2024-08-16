@@ -8,340 +8,8 @@
     }
   ],
   "book-table": [
-    {
-      "id": "5e4f",
-      "fname": "vidhika",
-      "lname": "bathani",
-      "email": "vidhika@gmail.com",
-      "phone": "9909358655",
-      "person": "2",
-      "date": "2024-06-08",
-      "time": "21:08"
-    }
   ],
   "food": [
-    {
-      "id": "b75e",
-      "title": "Caponata",
-      "url": "https://i.pinimg.com/236x/de/a5/e7/dea5e7b0f8f3c61125cba256af87a1f5.jpg",
-      "price": "16",
-      "category": "vegetables"
-    },
-    {
-      "id": "4b46",
-      "title": "Carciofialla Romana",
-      "url": "https://i.pinimg.com/236x/92/c7/04/92c704781e9d2047adde19132ff45aff.jpg",
-      "price": "22.19",
-      "category": "vegetables"
-    },
-    {
-      "id": "f7df",
-      "title": "Panzanella",
-      "url": "https://i.pinimg.com/236x/21/16/15/21161536555c615cd7497cd0ec25d187.jpg",
-      "price": "16.29",
-      "category": "vegetabless"
-    },
-    {
-      "id": "c98f",
-      "title": "Pinzimonio",
-      "url": "https://i.pinimg.com/236x/2b/06/9c/2b069cdcafdcf10f5735deede2815630.jpg",
-      "price": "19.09",
-      "category": "vegetables"
-    },
-    {
-      "id": "38b2",
-      "title": "Parmigiana di Melanzane",
-      "url": "https://i.pinimg.com/236x/26/f3/e7/26f3e70aa53c728ab733852b45605f7f.jpg",
-      "price": "29.89",
-      "category": "vegetables"
-    },
-    {
-      "id": "4212",
-      "title": "Calzone",
-      "url": "https://i.pinimg.com/236x/6c/e8/bc/6ce8bc2f31afd02819568ba13cb11e52.jpg",
-      "price": "11.79",
-      "category": "pizza"
-    },
-    {
-      "id": "dc08",
-      "title": "Fiadone",
-      "url": "https://i.pinimg.com/236x/43/f9/eb/43f9eb34b6c2ddb37416d70ce8373285.jpg",
-      "price": "13.13",
-      "category": "pizza"
-    },
-    {
-      "id": "0f51",
-      "title": "Panzerotto",
-      "url": "https://i.pinimg.com/236x/33/00/6c/33006c923d0ae8ee508259a86a6f5423.jpg",
-      "price": "16.68",
-      "category": "pizza"
-    },
-    {
-      "id": "0c42",
-      "title": "PinsRomana",
-      "url": "https://i.pinimg.com/236x/2d/43/fe/2d43fefe0f3d7ebb1353651b0409f87a.jpg",
-      "price": "15.59",
-      "category": "pizza"
-    },
-    {
-      "id": "7903",
-      "title": "Siciliana",
-      "url": "https://i.pinimg.com/564x/4b/48/06/4b48062b3c23de4b2eda7c6f28eca999.jpg",
-      "price": "20",
-      "category": "pizza"
-    },
-    {
-      "id": "28ff",
-      "title": "Pugliese",
-      "url": "https://i.pinimg.com/236x/f1/22/fb/f122fb4fc3a3ba7d2b628a84575b9d4b.jpg",
-      "price": "20",
-      "category": "pizza"
-    },
-    {
-      "id": "9a58",
-      "title": "Marinara",
-      "url": "https://i.pinimg.com/236x/35/95/71/3595715419a34757ec6befe94af083d9.jpg",
-      "price": "19.92",
-      "category": "pizza"
-    },
-    {
-      "id": "6ef0",
-      "title": "Fritta",
-      "url": "https://i.pinimg.com/236x/4b/99/d8/4b99d8bde4c4bb7540e79bba26ada5a0.jpg",
-      "price": "16",
-      "category": "pizza"
-    },
-    {
-      "id": "17aa",
-      "title": "Margherita",
-      "url": "https://i.pinimg.com/236x/c6/fe/55/c6fe55c23831405e94237f00d8d72774.jpg",
-      "price": "22.29",
-      "category": "pizza"
-    },
-    {
-      "id": "312d",
-      "title": "Capricciosa",
-      "url": "https://i.pinimg.com/564x/2f/38/d6/2f38d65d0c3de4e2b2914f95f7da7da1.jpg",
-      "price": "25.25",
-      "category": "pizza"
-    },
-    {
-      "id": "e2d2",
-      "title": "Gavi",
-      "url": "https://i.pinimg.com/236x/bf/5c/85/bf5c85ddf7f39caaf592433a9716bc61.jpg",
-      "price": "23",
-      "category": "wine"
-    },
-    {
-      "id": "7bf9",
-      "title": "Asti Wine",
-      "url": "https://i.pinimg.com/564x/2e/7e/03/2e7e03b411b168f6150d339435593f3b.jpg",
-      "price": "22.22",
-      "category": "wine"
-    },
-    {
-      "id": "0e13",
-      "title": "Cinque Terre Wine",
-      "url": "https://i.pinimg.com/236x/85/62/49/8562492d3210eabf7fcd25915e6117fd.jpg",
-      "price": "21",
-      "category": "wine"
-    },
-    {
-      "id": "1798",
-      "title": "Moscato Wine",
-      "url": "https://i.pinimg.com/564x/b7/eb/2b/b7eb2b8f0f00cbc326262c2480b27f4a.jpg",
-      "price": "29",
-      "category": "wine"
-    },
-    {
-      "id": "d8e1",
-      "title": "Raman dolo Wine",
-      "url": "https://i.pinimg.com/236x/f2/2b/b4/f22bb469bd93e41d0fafa654cbda0fb0.jpg",
-      "price": "26",
-      "category": "wine"
-    },
-    {
-      "id": "9d19",
-      "title": "Pignolo Wine",
-      "url": "https://i.pinimg.com/236x/53/dd/cf/53ddcf5dbc1a62f9000fde7b37ce3fb3.jpg",
-      "price": "20",
-      "category": "wine"
-    },
-    {
-      "id": "72c8",
-      "title": "Friulano Wine",
-      "url": "https://i.pinimg.com/236x/e7/29/df/e729dfa396297134c6e9d3a7054f2ccf.jpg",
-      "price": "21.69",
-      "category": "wine"
-    },
-    {
-      "id": "6b88",
-      "title": "Trebbiano Wine",
-      "url": "https://i.pinimg.com/236x/c9/0a/2b/c90a2b5240a01eaf88f8705d6e91cdcf.jpg",
-      "price": "19.19",
-      "category": "wine"
-    },
-    {
-      "id": "3630",
-      "title": "Gutturnio Wine",
-      "url": "https://i.pinimg.com/236x/85/59/ee/8559ee18ab81941ff05385017cbd894d.jpg",
-      "price": "19.99",
-      "category": "wine"
-    },
-    {
-      "id": "f2d5",
-      "title": "Bonarda Wine",
-      "url": "https://i.pinimg.com/236x/2f/fc/39/2ffc3997d21f792b785222dad97e9ac0.jpg",
-      "price": "25.99",
-      "category": "wine"
-    },
-    {
-      "id": "c3fe",
-      "title": "Albana Wine",
-      "url": "https://i.pinimg.com/236x/d8/e2/62/d8e262b0d644b4e4f13edfe342102f17.jpg",
-      "price": "20.20",
-      "category": "wine"
-    },
-    {
-      "id": "0b09",
-      "title": "Falanghina Wine",
-      "url": "https://i.pinimg.com/236x/d8/3f/51/d83f518b0eb97aadc7962c372350083e.jpg",
-      "price": "22",
-      "category": "wine"
-    },
-    {
-      "id": "0225",
-      "title": "Taurasi Wine",
-      "url": "https://i.pinimg.com/236x/de/02/50/de02500cd63b0903f28c90a741885e51.jpg",
-      "price": "23",
-      "category": "wine"
-    },
-    {
-      "id": "07fe",
-      "title": "Solopaca ",
-      "url": "",
-      "price": "",
-      "category": ""
-    },
-    {
-      "id": "8e1b",
-      "title": "Campanio Wine",
-      "url": "https://i.pinimg.com/236x/d8/41/8e/d8418eea9505f71b84ae03b4eb32b64f.jpg",
-      "price": "24.00",
-      "category": "wine"
-    },
-    {
-      "id": "3320",
-      "title": "Matera Wine",
-      "url": "https://i.pinimg.com/236x/45/ef/cb/45efcb9ad5a9f8ef4155d55c06a13db0.jpg",
-      "price": "24",
-      "category": "wine"
-    },
-    {
-      "id": "889d",
-      "title": "Abruzzo Wine",
-      "url": "https://i.pinimg.com/236x/cd/39/35/cd3935daddf8a0f76aba8f57390886de.jpg",
-      "price": "20",
-      "category": "wine"
-    },
-    {
-      "id": "27e9",
-      "title": "Agnolini mantovani in brodo",
-      "url": "https://i.pinimg.com/236x/37/2a/29/372a295d84cc6414bfca64434ec1a0e9.jpg",
-      "price": "23",
-      "category": "pasta"
-    },
-    {
-      "id": "0128",
-      "title": "Anelletti al forno",
-      "url": "https://i.pinimg.com/236x/56/83/d1/5683d1a98758f0889dc9f779da4bd236.jpg",
-      "price": "20.20",
-      "category": "pasta"
-    },
-    {
-      "id": "f1a6",
-      "title": "Anolini in brodo",
-      "url": "https://i.pinimg.com/236x/bf/57/34/bf57345df0a40672debd34177e2e026b.jpg",
-      "price": "19.99",
-      "category": "pasta"
-    },
-    {
-      "id": "4e04",
-      "title": "Battolli caiegue",
-      "url": "https://i.pinimg.com/236x/4b/01/3d/4b013d393f995bc78453be07512ae593.jpg",
-      "price": "22",
-      "category": "pasta"
-    },
-    {
-      "id": "b3cd",
-      "title": "Cacio e pepe",
-      "url": "https://i.pinimg.com/236x/7b/b9/5b/7bb95b30833551216eda4d991d259366.jpg",
-      "price": "22.20",
-      "category": "pasta"
-    },
-    {
-      "id": "c5d1",
-      "title": "Carbonara",
-      "url": "https://i.pinimg.com/236x/0f/2a/87/0f2a87cd1a23dd8443c404c893aefda6.jpg",
-      "price": "20.29",
-      "category": "pasta"
-    },
-    {
-      "id": "2945",
-      "title": "Ceppe al Sugo",
-      "url": "https://i.pinimg.com/236x/bd/65/c3/bd65c33a0f4053733ad74e93817354c5.jpg",
-      "price": "20.20",
-      "category": "pasta"
-    },
-    {
-      "id": "392d",
-      "title": "Cicatelli al Sugo",
-      "url": "https://i.pinimg.com/236x/21/48/e5/2148e54d547cf5cccc4a96a79986c6fd.jpg",
-      "price": "20.29",
-      "category": "pasta"
-    },
-    {
-      "id": "64bb",
-      "title": "Bolognese",
-      "url": "https://i.pinimg.com/564x/49/ca/e2/49cae2a7cc06f85269b350de24f4394c.jpg",
-      "price": "20.89",
-      "category": "pasta"
-    },
-    {
-      "id": "feb8",
-      "title": "Insalata di",
-      "url": "https://i.pinimg.com/564x/db/db/7d/dbdb7d3ddf5ff6c3a9f8c80ff54a8bf9.jpg",
-      "price": "22.22",
-      "category": "pasta"
-    },
-    {
-      "id": "dcd3",
-      "title": "Maltagliati ai fagioli",
-      "url": "https://i.pinimg.com/236x/06/f5/9c/06f59c7dd1acc6edf485636a4b88e05c.jpg",
-      "price": "19.89",
-      "category": "pasta"
-    },
-    {
-      "id": "d3f5",
-      "title": "Scarpinocc",
-      "url": "https://i.pinimg.com/236x/44/3b/1d/443b1d81f111655b8fb74ea3783d8ea2.jpg",
-      "price": "20",
-      "category": "pasta"
-    },
-    {
-      "id": "3765",
-      "title": "Pesto Bolognese",
-      "url": "https://i.pinimg.com/564x/cf/11/b0/cf11b0fd68de9569ba070d167030470c.jpg",
-      "price": "23.56",
-      "category": "pasta"
-    },
-    {
-      "id": "82bf",
-      "title": "Italian Beef Ragu",
-      "url": "https://i.pinimg.com/564x/81/de/1e/81de1ef075619fe8b99c60bc1b622a7c.jpg",
-      "price": "24.78",
-      "category": "pasta"
-    },
     {
       "id": "4eb0",
       "title": "Tomato",
@@ -418,6 +86,209 @@
       "url": "https://i.pinimg.com/564x/00/69/33/0069332fa51e45dbb8a57a9883574b0b.jpg",
       "price": "10",
       "category": "Fruit"
+    },
+    {
+      "id": "ee1b",
+      "title": "Onion",
+      "url": "https://i.pinimg.com/564x/16/c8/39/16c839241d91293cb0ad3bf066e13138.jpg",
+      "price": "7",
+      "category": "Vegetable"
+    },
+    {
+      "id": "93a9",
+      "title": "Garlic",
+      "url": "https://i.pinimg.com/564x/be/21/20/be212056fd63547a90f6e5dfc5538858.jpg",
+      "price": "12",
+      "category": "Vegetable"
+    },
+    {
+      "id": "7ce4",
+      "title": "Cabbage",
+      "url": "https://i.pinimg.com/564x/c9/67/30/c96730506e20873cdeaff37b4bd2e734.jpg",
+      "price": "8",
+      "category": "Vegetable"
+    },
+    {
+      "id": "804e",
+      "title": "Cauliflower",
+      "url": "https://i.pinimg.com/564x/f7/0f/67/f70f6756bed0c85aab556599c32d9803.jpg",
+      "price": "11",
+      "category": "Vegetable"
+    },
+    {
+      "id": "af9d",
+      "title": "Peas",
+      "url": "https://i.pinimg.com/564x/59/d2/e8/59d2e8c86e976ccae8d93aa49f10b21f.jpg",
+      "price": "15.5",
+      "category": "Vegetable"
+    },
+    {
+      "id": "e7e5",
+      "title": "Celery",
+      "url": "https://i.pinimg.com/564x/67/df/c6/67dfc6c970c78c30b00533a55ece4df5.jpg",
+      "price": "22",
+      "category": "Vegetable"
+    },
+    {
+      "id": "d5ff",
+      "title": "Radish",
+      "url": "https://i.pinimg.com/564x/4c/e7/7c/4ce77caa254f962f70d2e62d1edbc221.jpg",
+      "price": "12",
+      "category": "Vegetable"
+    },
+    {
+      "id": "7d6a",
+      "title": "Sweet Potato",
+      "url": "https://i.pinimg.com/564x/de/8b/ec/de8bec55a2a30522718a92cd1dbe758e.jpg",
+      "price": "14",
+      "category": "Vegetable"
+    },
+    {
+      "id": "e623",
+      "title": "Green Beans",
+      "url": "https://i.pinimg.com/564x/6e/5a/6b/6e5a6bc7022ee687ae1862c369551f7b.jpg",
+      "price": "21",
+      "category": "Vegetable"
+    },
+    {
+      "id": "149a",
+      "title": "Asparagus",
+      "url": "https://i.pinimg.com/564x/30/c7/36/30c736adeba4c0ab50194efbc6a47de6.jpg",
+      "price": "21.21",
+      "category": "Vegetable"
+    },
+    {
+      "id": "3fbd",
+      "title": "Pumpkin",
+      "url": "https://i.pinimg.com/564x/70/c7/bb/70c7bb674075aa4dc5679c3195845e79.jpg",
+      "price": "15",
+      "category": "Vegetable"
+    },
+    {
+      "id": "6b19",
+      "title": "BeetRoot",
+      "url": "https://i.pinimg.com/564x/43/96/57/4396570fe29e4b2f013324707768da3a.jpg",
+      "price": "12.12",
+      "category": "Vegetable"
+    },
+    {
+      "id": "7a67",
+      "title": "Brussis Sprouts",
+      "url": "https://i.pinimg.com/564x/c1/b7/8b/c1b78bbeaf39310525d844afd016c73a.jpg",
+      "price": "22",
+      "category": "Vegetable"
+    },
+    {
+      "id": "2e03",
+      "title": "Kale",
+      "url": "https://i.pinimg.com/564x/bd/07/c5/bd07c58afef6fa679313ef36961c4961.jpg",
+      "price": "11",
+      "category": "Vegetable"
+    },
+    {
+      "id": "7383",
+      "title": "Turnip",
+      "url": "https://i.pinimg.com/564x/04/2b/7b/042b7be0238e17b4f2dc5b038f4078ec.jpg",
+      "price": "9.5",
+      "category": "Vegetable"
+    },
+    {
+      "id": "dadd",
+      "title": "Leek ",
+      "url": "https://i.pinimg.com/564x/29/b6/c0/29b6c011400b4e73350b155cf8c80f74.jpg",
+      "price": "10.9",
+      "category": "Vegetable"
+    },
+    {
+      "id": "7b36",
+      "title": "Okra",
+      "url": "https://i.pinimg.com/564x/1c/e3/6c/1ce36ce9f31165ee216294e039102fbe.jpg",
+      "price": "5",
+      "category": "Vegetable"
+    },
+    {
+      "id": "5811",
+      "title": "Parsnip",
+      "url": "https://i.pinimg.com/564x/c8/4c/8a/c84c8a2f6f1be8befd274d26909b57fe.jpg",
+      "price": "8.5",
+      "category": "Vegetable"
+    },
+    {
+      "id": "b20d",
+      "title": "Jicama",
+      "url": "https://i.pinimg.com/564x/e6/bc/c3/e6bcc34f2ebc8f78fb124f1c10412a3d.jpg",
+      "price": "9.0",
+      "category": "Vegetable"
+    },
+    {
+      "id": "d955",
+      "title": "Fennel",
+      "url": "https://i.pinimg.com/564x/3d/b6/67/3db66726de3b373844182de6e79c9c3f.jpg",
+      "price": "15.5",
+      "category": "Vegetable"
+    },
+    {
+      "id": "e1a2",
+      "title": "Endive",
+      "url": "https://i.pinimg.com/564x/47/ae/7e/47ae7e30aa066c92ceaa3276f4dc554b.jpg",
+      "price": "20",
+      "category": "Vegetable"
+    },
+    {
+      "id": "3e57",
+      "title": "Kohlabi",
+      "url": "https://i.pinimg.com/564x/a6/20/d7/a620d7d491b2376fc30bf5aa9769ceae.jpg",
+      "price": "11",
+      "category": "Vegetable"
+    },
+    {
+      "id": "015d",
+      "title": "Chara",
+      "url": "https://i.pinimg.com/564x/5d/4f/1a/5d4f1aebc3e04895e7a94908fdf91e5f.jpg",
+      "price": "16",
+      "category": "Vegetable"
+    },
+    {
+      "id": "ca42",
+      "title": "Chayote",
+      "url": "https://i.pinimg.com/564x/ce/04/85/ce04857501322ac56b0258a3b569c5fe.jpg",
+      "price": "8",
+      "category": "Vegetable"
+    },
+    {
+      "id": "ea5e",
+      "title": "Arugula",
+      "url": "https://i.pinimg.com/564x/b4/dc/2d/b4dc2d12cf001d685b0f477693785434.jpg",
+      "price": "18",
+      "category": "Vegetable"
+    },
+    {
+      "id": "8bd4",
+      "title": "Bok Choy",
+      "url": "https://i.pinimg.com/564x/ce/45/be/ce45be371fa498ea8255c840d9a20019.jpg",
+      "price": "14.4",
+      "category": "Vegetable"
+    },
+    {
+      "id": "9736",
+      "title": "Red Bellpepper",
+      "url": "https://i.pinimg.com/564x/86/06/72/860672aa4ae003a66f54ad300d22ffe9.jpg",
+      "price": "7",
+      "category": "Vegetable"
+    },
+    {
+      "id": "7b5f",
+      "title": "Yellow Bellpepper",
+      "url": "https://i.pinimg.com/736x/b6/89/80/b68980d5d2e21b9c6afd2238c95c4942.jpg",
+      "price": "8",
+      "category": "Vegetable"
+    },
+    {
+      "id": "2557",
+      "title": "Bellpepper",
+      "url": "https://i.pinimg.com/564x/e7/d5/44/e7d54461b28cbbe4dd0edd1d64c1d132.jpg",
+      "price": "6",
+      "category": "Vegetable"
     }
   ]
 }

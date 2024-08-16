@@ -29,7 +29,7 @@ function Menu() {
                             <div className="main-div col-md-6 col-12">
                                 <NavLink to={`/product/${ele.id}`} className="text-decoration-none text-dark">
                                     <div id="flex" className="p-2">
-                                        <div className="rounded-circle overflow-hidden" id="img-div"> <img src={ele.url} alt="" /></div>
+                                        <div className="" id="img-div"> <img src={ele.url} alt="" /></div>
                                         <div className="px-3">
                                             <h3>{ele.title}</h3>
                                             <p> dolor, sit amet consectetur adipisicing elit. Optio, iure.</p>

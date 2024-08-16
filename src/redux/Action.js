@@ -1,5 +1,5 @@
 import axios from "axios"
-import { ADD_PRODUCT, BOOK_TABLE, GET_PRODUCT, SIGNUP } from "./ActionType"
+import { ADD_PRODUCT, BOOK_TABLE, GET_PRODUCT, SIGNUP, SINGLE_PRODUCT } from "./ActionType"
 
 export const signup=(data)=>async(dispatch)=>{
     let user = await axios.post("http://localhost:3100/users", data)
@@ -34,6 +34,15 @@ export const get_product=()=>async(dispatch)=>{
         type:GET_PRODUCT,
         payload:get.data
     })  
+}
+
+export const Singleproduct=(id)=>async(dispatch)=>{
+    let singlep=await axios.get(`http://localhost:3100/food/${id}`)
+
+    dispatch({
+        type:SINGLE_PRODUCT,
+        payload:singlep.data
+    })
 }
 
 export const add_cart=()=>{}
